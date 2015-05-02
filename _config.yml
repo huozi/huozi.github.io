@@ -1,0 +1,9 @@
+markdown: rdiscount
+highlighter: true
+paginate: 8
+permalink: /:title
+
+title: huozi
+url: http://huozi.github.io
+feed: /atom.xml
+author_info: <a href="http://huozi.github.io">huozi</a>

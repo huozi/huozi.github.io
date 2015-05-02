@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    * Author:         BeiYuu
+    -->
+    <meta charset="utf-8" />
+    <title>你好，博客 | huozi</title>
+    <meta name="author" content="BieYuu" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="huozi's blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+    <!--link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /-->
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div class="home-menu">
+        <div class="home-icon-con">
+            <a class="home-menu-icon" href="/">huozi</a>
+            <a class="home-follow" href="#" title="Contact Me">+</a>
+        </div>
+        <div class="home-contact">
+            <a href="javascript:alert(':D');" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
+            <a href="javascript:alert(':)');" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
+            <a href="javascript:alert(':(');" target="_blank" style="text-align:right"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="/js/prettify/prettify.css" />
+<style type="text/css">
+    body { background:#e8e8e8; }
+    @media screen and (max-width: 750px){
+        body { background:#fff; }
+    }
+    @media screen and (max-width: 1020px){
+        body { background:#fff; }
+    }
+</style>
+
+<div id="content">
+    <div class="entry">
+        <h1 class="entry-title"><a href="/hello-blog" title="你好，博客">你好，博客</a></h1>
+        <p class="entry-date">2015-05-02</p>
+        <h2>第一篇博文</h2>
+
+<p>一直以来都觉得自己是个<del>文艺青年</del>，想拥有自己的博客，闲暇时发发牢骚，却迟迟没有动手。几经挣扎，如今终于根据<a href="http://www.beiyuu.com" title="beiyou.com">BeiYuu</a>同学的<a href="http://beiyuu.com/github-pages" title="Github Pages搭建独立博客教程">Github Pages搭建独立博客教程</a>搭建起了自己的博客。在这里衷心感谢BeiYuu无私的共享。</p>
+
+<p>由于时间的关系，还没来得及学习如何修改。其实折腾了两天，发现完全由自己设计有点难度，毕竟第一次接触<a href="https://github.com/mojombo/jekyll">Jekyll</a>, <a href="http://zh.wikipedia.org/zh-cn/Markdown" title="Markdown">Markdown</a>，很多东西没弄明白。所以现在的博客页面保持着例子（模板）的原貌。日后会根据自己的想法进行修改，并让内容充实整个博客。</p>
+
+<h2>需要Get的技能</h2>
+
+<ul>
+<li>熟悉Markdown标记语言</li>
+<li>学习git概念，命令，熟悉各种操作</li>
+<li>熟悉github，尝试用github托管自己的小代码</li>
+</ul>
+
+
+<h2>一点计划</h2>
+
+<p>今天（2015.5.2）五一小长假第二天，出去逛了一下：川大华西-->川大望江-->望江楼。其实大四这一年基本上由自己安排，换句话说就是天天可以放假。事实上不可能那么潇洒，一直在帮老师当“苦力”。毕业设计马上开始中期检查了，指导老师前几天就通知今日之前要完成中期报告，我完全忘了，马上就3号了，还没给老师回复。驾照预计下周开始科目一，科目一之后的抓紧练车，否则暑假一过，驾照还没拿到就糟糕了。</p>
+
+<p>说了这么多，其实想表达的是，这段时间会很忙，估计短时间里没精力打理博客。尽量安排自己的时间吧，希望一周后能抽出时间来完善页面。博文的话，看着办吧。</p>
+
+        <div id="disqus_container">
+            <a href="#" class="comment" onclick="return false;">点击查看评论</a>
+            <div id="disqus_thread"></div>
+        </div>
+    </div>
+    <div id="disqus_thread"></div>
+
+<!--  去掉微博
+    <div class="sidenav">
+        <iframe width="100%" height="75" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index....></iframe>
+    </div>
+-->
+    <div class="sidenav">
+        <h2>Blog</h2>
+        <ul class="artical-list">
+        
+            <li><a href="/hello-blog">你好，博客</a></li>
+        
+        </ul>
+
+        <h2>Opinion</h2>
+        <ul class="artical-list">
+        
+        </ul>
+
+        <h2>Project</h2>
+        <ul class="artical-list">
+        
+        </ul>
+    </div>
+</div>
+
+<script src="/js/post.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+        $(function(){
+            $('.home-follow').click(function(e){
+                e.preventDefault();
+
+                if($('.home-contact').is(':visible')){
+                    $('.home-contact').slideUp(100);
+                }else{
+                    $('.home-contact').slideDown(100);
+                }
+            });
+        })
+    </script>
+</body>
+</html>
